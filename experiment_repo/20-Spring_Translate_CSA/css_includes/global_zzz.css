@@ -1,0 +1,89 @@
+.Message-continue-link {
+    font-size: x-large;
+    text-decoration: none;
+}
+
+.Message-continue-link:visited {
+    color: #ffe000;
+}
+
+
+body {
+  background-color: black; 
+  color: white;
+}
+
+
+div { 
+  margin-top: 3em;
+}
+
+li.QuestionAlt-scale-box {
+    width: auto;
+    height: auto;
+    display: table;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+    padding-top: 0.5em;
+    text-align: center;
+    font-size: larger;
+    border: 0px;
+    float: left;
+    list-style: none;
+    margin-left: 8.5em;
+    padding-left: 0;
+    margin-right: 10em;
+    padding-right: 0;
+}
+
+.QuestionAlt-QuestionAlt {
+    margin-left: 0;
+    padding-left: 0;
+    font-size: xxx-large;
+}
+
+.Question-Question {
+    margin-left: 0;
+    padding-left: 0;
+    font-size: xxx-large;
+    margin-top: 25%; 
+}
+
+ol {
+    font-size: x-large;
+}
+
+.Message_AY-message {
+    font-size: xx-large;
+    width: 100%;
+}
+
+.Form-form {
+  font-size: larger; 
+  }
+
+input {
+  font-size: larger;
+  width: auto;
+  }
+
+.Message_AY-continue-link {
+    text-decoration: none;
+    color: blue;
+    font-size: large;
+}
+
+
+.AcceptabilityJudgment-AcceptabilityJudgment { 
+  margin-top: 15%; 
+}
+
+p.AcceptabilityJudgment-AcceptabilityJudgment.VBox-VBox { 
+  font-size: xx-large; 
+}
+
+span.Question-fake-link {
+    font-size: x-large;
+    color:  #ffffb3;
+    cursor: pointer;
+}

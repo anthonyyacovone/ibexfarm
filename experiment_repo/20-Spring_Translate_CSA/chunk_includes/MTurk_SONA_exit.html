@@ -1,0 +1,94 @@
+<head>
+<style type="text/css">
+div { 
+   width: 50em; 
+   font-size:large; 
+   padding-left: 1em;
+   padding-right: 1em;
+   padding-bottom: -1em;
+   }
+   
+h1 {
+   margin-top:1em;
+   margin-bottom:.5em;
+   text-align: center;
+   }
+   
+p { 
+   font-size: x-large;
+   text-align: justify; 
+   font-family: "Times New Roman", Times, serif;
+
+   }
+  
+body {
+    color: white;
+    background-color: black;
+    margin-left: .5em;
+    margin-right: .5em;
+    margin-top: .5em;
+    font-size: 15pt;
+}
+
+   
+</style>
+</head>
+
+
+<html>
+  
+<div id="exit" style="margin: 0 auto; text-align: justify; border:1px solid white; background-color:black"; width:50%>
+<script language="javascript" type="text/javascript">
+function randomString() {
+  var chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz";
+  var string_length = 8;
+  var randomstring = '';
+  for (var i=0; i<string_length; i++) {
+    var rnum = Math.floor(Math.random() * chars.length);
+    randomstring += chars.substring(rnum,rnum+1);
+  }
+  document.randform.identifier.value = randomstring;
+}
+</script>
+
+
+<center><h2> Subject identification:<br> For Amazon Workers and University Students</h2></center><hr>
+We require you to enter your Amazon worker ID or your University SONA ID and a unique identifier so that we may compensate you for completing this task. <br><br>
+Be sure to enter the identifier in back at the MTurk webpage (Amazon workers) or back on the SONA website (University Students).<br>
+
+
+<table>
+<tr>
+  <td colspan="1"> <b> 1. Please enter your Amazon worker ID or University SONA ID: </b>
+</td>
+</tr>
+<tr>
+  <td colspan="1">
+    <textarea name="worker_id" rows="1" cols="20" class="obligatory"></textarea>
+  </td>
+</tr>
+<br>
+
+<tr>
+  <td colspan="1">
+      <b> 2. Click on the following button to create your unique identifier. </b>
+  </td>
+</tr>
+<tr>
+  <td>
+    <form name="randform">
+      <input type="button" value="Create unique identifier" onClick="randomString();">&nbsp;
+      <input type="text" name="identifier" value="">
+    </form>
+  </td>
+</tr>
+
+<tr>
+  <td> 
+    <b>3. Click below to complete the experiment. Wait until the results have successfully uploaded to the server. <br> 
+    Once finished, be sure to paste your identifier into the MTurk page to receive payment (Amazon Workers) or SONA Credit (University Students). </b> <br><br><br>
+  </td>
+</tr>
+
+</table>
+</div>
